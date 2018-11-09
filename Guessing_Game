@@ -1,7 +1,7 @@
 import random
 userGuess = int(input("Enter your guessed no. b/w 0-100:"))
 a = comGuess = random.randint(0,100)
-if <=0 userGuess <=100:
+if 0<= userGuess <=100:
 
  while true:
   comGuess=random.randint(0,100)
